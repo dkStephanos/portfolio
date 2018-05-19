@@ -1,0 +1,29 @@
+@media (max-width: 375px) {
+	header .menuicon {
+		display: block;
+	}
+
+	header .links {
+		display: none;
+		background-color: #666f7f;
+	}
+
+	header .links a {
+		display: block;
+		background-color: #666f7f;
+	}
+
+	header .menuicon:hover ~ .links {
+		display: block;
+		height: 250px;
+	}
+
+	header .links:hover {
+		display: block;
+		height: 250px;
+	}
+
+	.aboutme .content h1 {
+		font-size: 5em;
+	}
+}
