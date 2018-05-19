@@ -1,3 +1,29 @@
+@media (max-width: 800px) {
+	.resume {
+		height: 1000px;
+	}
+
+	.aboutme h1 {
+		font-size: 4em;
+	}
+
+	.aboutme h2 {
+		font-stretch: 3em;
+	}
+
+	header .links {
+		font-size: .75em;
+	}
+
+	.contact .content .email {
+		font-size: 3em;
+	}
+
+	.contact .content .socialbar {
+		font-size: 1.2em;
+	}
+}
+
 @media (max-width: 375px) {
 	header .menuicon {
 		display: block;
@@ -23,7 +49,27 @@
 		height: 250px;
 	}
 
-	.aboutme .content h1 {
-		font-size: 5em;
+	.aboutme h1 {
+		font-size: 2.5em;
+	}
+
+	.aboutme h2 {
+		font-stretch: 1.5em;
+	}
+
+	.portfolio h2 {
+		font-size: 2em;
+	}
+
+	.portfolio h3 {
+		font-size: 1.5em;
+	}
+
+	.contact .content .email {
+		font-size: 2em;
+	}
+
+	.contact .content .socialbar {
+		font-size: .8em;
 	}
 }

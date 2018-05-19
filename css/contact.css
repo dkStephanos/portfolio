@@ -1,12 +1,12 @@
-.aboutme {
+.contact {
 	height: 100vh;
 	width: 100%;
-	background-image: url(../images/aboutme.jpg);
+	background-image: url(../images/contact.jpg);
 	background-size: cover;
 	position: relative;
 }
 
-.aboutme::after {
+.contact::after {
 	content: " ";
 	position: absolute;
 	top: 0;
@@ -16,25 +16,33 @@
 	background-color: rgba(0,0,0,.66);
 }
 
-.aboutme .content {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateY(-50%) translateX(-50%);
-	z-index: 1;
+.contact .content {
+	position: relative;
+	top: 40%;
+	text-align: center;
+	transform: translateY(-50%);
 	letter-spacing: .1em;
+	z-index: 1;
 }
 
-.aboutme .content p {
-	color: white;
-	font-size: 1.3em;
-}
-
-.aboutme .content b {
+.contact .content b {
 	 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#28347a+13,31489d+44 */
 	color: #28347a; /* Old browsers */
 	color: -moz-linear-gradient(top, #28347a 13%, #31489d 44%); /* FF3.6-15 */
 	color: -webkit-linear-gradient(top, #28347a 13%,#31489d 44%); /* Chrome10-25,Safari5.1-6 */
 	color: linear-gradient(to bottom, #28347a 13%,#31489d 44%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28347a', endColorstr='#31489d',GradientType=0 ); /* IE6-9 */
+}
+
+.contact .socialbar a {
+	font-size: 3em;
+	color: white;
+	padding: 5px;
+}
+
+.contact .email {
+	font-size: 4em;
+	color: white;
+	text-decoration: none;
+
 }
