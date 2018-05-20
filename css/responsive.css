@@ -160,6 +160,16 @@
 		font-stretch: 1.5em;
 	}
 
+	.resume .logo {
+		transform: scale(.8) translateX(-70px);
+	}
+
+	.resume .downloadButton {
+		font-size: 1em;
+		padding: 8px;
+		margin-bottom: 20px;
+	}
+
   .resume .content p {
     font-size: 1em;
   }
