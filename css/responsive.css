@@ -1,7 +1,53 @@
-@media (max-width: 800px) {
-	.resume {
-		height: 1000px;
-	}
+
+
+@media (max-width: 750px) {
+
+  /*header */
+  header .links {
+    transform:none;
+    background-color:#717a89;
+    display:none;
+    height:80px;
+    overflow:hidden;
+    transition: all 1s;
+
+  }
+
+  header .menuicon {
+    position:absolute;
+    right:10px;
+    top:17px;
+    display:block;
+    font-size:30px;
+    color:white;
+  }
+
+  header .menuicon:hover ~ .links {
+    display:block;
+    height:330px;
+  }
+
+  header .menuicon:active ~ .links {
+    display:block;
+    height:330px;
+  }
+
+  header .links a {
+    display: block;
+  }
+
+  /*about me*/
+  .aboutme h1, .aboutme p {
+    transform:none;
+  }
+
+  /*portfolio */
+  .portfolio h2 {
+    font-size:3em;
+  }
+  .portfolio h3 {
+    font-size:1em;
+  }
 
 	.aboutme h1 {
 		font-size: 4em;
@@ -24,40 +70,33 @@
 	}
 }
 
-@media (max-width: 375px) {
-	header .menuicon {
-		display: block;
-	}
+@media (max-width: 500px) {
 
-	header .links {
-		display: none;
-		background-color: #666f7f;
-	}
+  header .links {
+    transform:none;
+  }
 
-	header .links a {
-		display: block;
-		background-color: #666f7f;
-	}
+  header .menuicon:active ~ .links {
+    display:block;
+    height:330px;
+  }
 
-	header .menuicon:hover ~ .links {
-		display: block;
-		height: 250px;
-	}
+  .aboutme h1 {
+    font-size:4em;
+  }
+  .aboutme h1, .aboutme p {
+    transform:translateX(15px);
+  }
 
-	header .links:hover {
-		display: block;
-		height: 250px;
-	}
+  .resume {
+    height:100vh;
+  }
 
-	.aboutme h1 {
-		font-size: 2.5em;
-	}
+  .resume {
+    font-size:.9em;
+  }
 
-	.aboutme h2 {
-		font-stretch: 1.5em;
-	}
-
-	.portfolio h2 {
+    .portfolio h2 {
 		font-size: 2em;
 	}
 
@@ -67,6 +106,74 @@
 
 	.contact .content .email {
 		font-size: 2em;
+	}
+
+	.contact .content .socialbar {
+		font-size: .8em;
+	}
+}
+
+@media (max-width: 375px) {
+
+  .aboutme h1 {
+    font-size:3em;
+  }
+  .aboutme h1, .aboutme p {
+    transform:translateX(15px);
+  }
+
+  .aboutme p {
+    padding-right:20px;
+  }
+
+  header .menuicon:active ~ .links {
+    display:block;
+    height:330px;
+  }
+
+  header .menuicon {
+		display: block;
+	}
+
+	header .links {
+		display: none;
+		background-color: #666f7f;
+		transition: all 1s;
+	}
+
+	header .links a {
+		display: block;
+		background-color: #666f7f;
+	}
+
+	header .menuicon:hover ~ .links {
+		display: block;
+		height: 330px;
+	}
+
+	header .links:hover {
+		display: block;
+		height: 330px;
+	}
+
+	.aboutme h2 {
+		font-stretch: 1.5em;
+	}
+
+  .resume .content p {
+    font-size: 1em;
+  }
+
+  	.portfolio h2 {
+		font-size: 2em;
+	}
+
+	.portfolio h3 {
+		font-size: 1.5em;
+	}
+
+	.contact .content .email {
+		font-size: 1.5em;
 	}
 
 	.contact .content .socialbar {
