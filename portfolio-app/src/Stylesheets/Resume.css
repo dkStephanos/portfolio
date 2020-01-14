@@ -1,0 +1,46 @@
+.resume {
+	position: relative;
+	height: 100vh;
+	background-color: #2d3446;
+}
+
+.resume .content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	max-width: 700px;
+}
+
+.resume .content p {
+	line-height: 1.5em;
+	color: white;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.resume .logo {
+	color: #2d3446;
+	position: relative;
+	left: 50%;
+	margin-bottom: 30px;
+	transform: translateX(-50%);
+}
+
+.resume .downloadButton {
+	position: relative;
+	display: block;
+
+	left: 50%;
+	width: 250px;
+	height: 40px;
+	transform: translateX(-50%);
+	padding: 10px;
+
+	color: white;
+	border: 1px solid blue;
+	font-size: 1.2em;
+	text-decoration: none;
+	line-height: 40px;
+	text-align: center;
+}
