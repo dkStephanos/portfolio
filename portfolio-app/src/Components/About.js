@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
+import '../Stylesheets/About.css';
 
 class About extends Component {
   render() {
     return (
       <Row>
-        <Col className="About">
+        <Col>
 
-        <div dataAnimation="flip-in-x" style={{animationDelay: "0.6s"}}>
-        About
-        </div>
+        <div className="about">
+      <div className="content">
+        <h1>I<b>'</b>m<br/>Koi<br/>Stephanos<b>.</b><br/></h1>
+        <p>SOFTWARE ENGINEER: JavaScript, React, Rails</p>
+      </div>
+    </div>
         </Col>
       </Row>
     );
