@@ -19,14 +19,6 @@
 	text-align: center;
 }
 
-.resume .logo {
-	color: #2d3446;
-	position: relative;
-	left: 50%;
-	margin-bottom: 30px;
-	transform: translateX(-50%);
-}
-
 .resume .downloadButton {
 	position: relative;
 	display: block;
