@@ -5,6 +5,7 @@ import Resume from './Components/Resume';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import './App.css';
+import './Stylesheets/Responsive.css';
 
 function App() {
   return (
